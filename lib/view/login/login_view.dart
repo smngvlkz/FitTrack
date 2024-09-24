@@ -35,11 +35,11 @@ class _LoginViewState extends State<LoginView> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text(
+                const Text(
                   "Hey there",
                   style: TextStyle(color: TColor.grey, fontSize: 16),
                 ),
-                Text(
+                const Text(
                   "Welcome Back!",
                   style: TextStyle(
                       color: TColor.black,
@@ -82,7 +82,7 @@ class _LoginViewState extends State<LoginView> {
                   ),
                   controller: firstNameController,
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
@@ -114,7 +114,7 @@ class _LoginViewState extends State<LoginView> {
                       height: 1,
                       color: TColor.grey.withOpacity(0.5),
                     )),
-                    Text(
+                    const Text(
                       "  Or  ",
                       style: TextStyle(color: TColor.black, fontSize: 12),
                     ),
@@ -186,7 +186,7 @@ class _LoginViewState extends State<LoginView> {
                     onPressed: () {
                       Navigator.pop(context);
                     },
-                    child: Row(
+                    child: const Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(

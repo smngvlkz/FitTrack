@@ -44,7 +44,7 @@ class _MainTabViewState extends State<MainTabView> {
                     blurRadius: 2,
                   )
                 ]),
-            child: Icon(
+            child: const Icon(
               Icons.search,
               color: TColor.white,
               size: 35,
@@ -53,7 +53,7 @@ class _MainTabViewState extends State<MainTabView> {
         ),
       ),
       bottomNavigationBar: BottomAppBar(
-        child: Container(
+        child: SizedBox(
           height: kToolbarHeight,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,

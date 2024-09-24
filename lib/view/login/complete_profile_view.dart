@@ -34,14 +34,14 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
               SizedBox(
                 height: media.width * 0.05,
               ),
-              Text(
+              const Text(
                 "Complete Your Profile",
                 style: TextStyle(
                     color: TColor.black,
                     fontSize: 20,
                     fontWeight: FontWeight.w700),
               ),
-              Text(
+              const Text(
                 "Tell us more about you!",
                 style: TextStyle(color: TColor.grey, fontSize: 12),
               ),
@@ -79,7 +79,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                                           value: name,
                                           child: Text(
                                             name,
-                                            style: TextStyle(
+                                            style: const TextStyle(
                                                 color: TColor.grey,
                                                 fontSize: 16),
                                           ),
@@ -87,7 +87,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                                     .toList(),
                                 onChanged: (value) {},
                                 isExpanded: true,
-                                hint: Text(
+                                hint: const Text(
                                   "Choose Gender",
                                   style: TextStyle(
                                       color: TColor.grey, fontSize: 12),
@@ -134,7 +134,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                             ),
                             borderRadius: BorderRadius.circular(15),
                           ),
-                          child: Text("KG",
+                          child: const Text("KG",
                               style:
                                   TextStyle(color: TColor.white, fontSize: 12)),
                         )
@@ -165,7 +165,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
                             ),
                             borderRadius: BorderRadius.circular(15),
                           ),
-                          child: Text("CM",
+                          child: const Text("CM",
                               style:
                                   TextStyle(color: TColor.white, fontSize: 12)),
                         )

@@ -48,7 +48,7 @@ class RoundTextfield extends StatelessWidget {
                 fit: BoxFit.contain,
                 color: TColor.grey,
               )),
-          hintStyle: TextStyle(color: TColor.grey, fontSize: 12),
+          hintStyle: const TextStyle(color: TColor.grey, fontSize: 12),
         ),
       ),
     );

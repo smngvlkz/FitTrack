@@ -35,11 +35,11 @@ class _SignUpViewState extends State<SignUpView> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text(
+                const Text(
                   "Sign Up",
                   style: TextStyle(color: TColor.grey, fontSize: 16),
                 ),
-                Text(
+                const Text(
                   "Create an account",
                   style: TextStyle(
                       color: TColor.black,
@@ -110,8 +110,8 @@ class _SignUpViewState extends State<SignUpView> {
                           color: TColor.grey,
                           size: 20,
                         )),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 8),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 8),
                       child: Text(
                         "By creating an account, you agree to our Terms of Service and\nPrivacy Policy",
                         style: TextStyle(color: TColor.grey, fontSize: 10),
@@ -141,7 +141,7 @@ class _SignUpViewState extends State<SignUpView> {
                       height: 1,
                       color: TColor.grey.withOpacity(0.5),
                     )),
-                    Text(
+                    const Text(
                       "  Or  ",
                       style: TextStyle(color: TColor.black, fontSize: 12),
                     ),
@@ -216,7 +216,7 @@ class _SignUpViewState extends State<SignUpView> {
                           MaterialPageRoute(
                               builder: (context) => const LoginView()));
                     },
-                    child: Row(
+                    child: const Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(

@@ -93,7 +93,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                       color: TColor.primaryColor1,
                       borderRadius: BorderRadius.circular(35)),
                   child: IconButton(
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.navigate_next,
                       color: TColor.white,
                     ),

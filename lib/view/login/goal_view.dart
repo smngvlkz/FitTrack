@@ -67,7 +67,7 @@ class _WhatsYourGoalViewState extends State<WhatsYourGoalView> {
                                 ),
                                 Text(
                                   gObj["Title"].toString(),
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                       color: TColor.white,
                                       fontSize: 14,
                                       fontWeight: FontWeight.w700),
@@ -83,7 +83,7 @@ class _WhatsYourGoalViewState extends State<WhatsYourGoalView> {
                                 Text(
                                   gObj["subtitle"].toString(),
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                       color: TColor.white, fontSize: 12),
                                 ),
                               ],
@@ -109,14 +109,14 @@ class _WhatsYourGoalViewState extends State<WhatsYourGoalView> {
                   SizedBox(
                     height: media.width * 0.05,
                   ),
-                  Text(
+                  const Text(
                     "What's Your Goal?",
                     style: TextStyle(
                         color: TColor.black,
                         fontSize: 20,
                         fontWeight: FontWeight.w700),
                   ),
-                  Text(
+                  const Text(
                     "It will help us to choose the best\npogram for you!",
                     textAlign: TextAlign.center,
                     style: TextStyle(color: TColor.grey, fontSize: 12),

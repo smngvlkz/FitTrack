@@ -37,14 +37,14 @@ class _WelcomeViewState extends State<WelcomeView> {
                     SizedBox(
                       height: media.width * 0.1,
                     ),
-                    Text(
+                    const Text(
                       "Welcome Simangaliso!",
                       style: TextStyle(
                           color: TColor.black,
                           fontSize: 20,
                           fontWeight: FontWeight.w700),
                     ),
-                    Text(
+                    const Text(
                       "You are all set now, let's reach your\ngoals",
                       textAlign: TextAlign.center,
                       style: TextStyle(color: TColor.grey, fontSize: 12),

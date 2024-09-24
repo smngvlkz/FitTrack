@@ -34,14 +34,14 @@ class _StartedViewState extends State<StartedView> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Spacer(),
-              Text(
+              const Text(
                 "FitTrack",
                 style: TextStyle(
                     color: TColor.black,
                     fontSize: 36,
                     fontWeight: FontWeight.w700),
               ),
-              Text(
+              const Text(
                 "Easy way to track your health",
                 style: TextStyle(
                   color: TColor.grey,
